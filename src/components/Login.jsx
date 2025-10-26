@@ -44,7 +44,7 @@ const Login = () => {
 
         // 👇 JSON Server se users fetch karo
         try {
-            const res = await fetch("http://localhost:3000/users");
+            const res = await fetch("https://gym-management-system-t3x0.onrender.com/users");
             const users = await res.json();
 
             // match user credentials

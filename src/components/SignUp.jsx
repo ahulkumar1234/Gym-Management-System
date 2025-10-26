@@ -45,7 +45,7 @@ const SignUp = () => {
 
         // ✅ Optional: Save to JSON server
         try {
-            const res = await fetch("http://localhost:3000/users", {
+            const res = await fetch("https://gym-management-system-t3x0.onrender.com/users", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(Input),

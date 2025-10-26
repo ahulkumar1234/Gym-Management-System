@@ -13,7 +13,7 @@ const AdminProvider = ({ children }) => {
             setAdmin(localAdmin);
         } else {
             // Step 2: If not found in localStorage, fetch from JSON server
-            fetch("http://localhost:3000/Admin")
+            fetch("https://gym-management-system-t3x0.onrender.com/Admin")
                 .then((res) => res.json())
                 .then((data) => {
                     if (data.length > 0) {
