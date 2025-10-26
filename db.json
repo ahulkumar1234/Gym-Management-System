@@ -1,0 +1,21 @@
+{
+  "Admin": [
+    {
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "password": "admin@1234",
+      "id": "cc89"
+    }
+  ],
+  "users": [
+    {
+      "id": "d72f",
+      "name": "Rahul kumar",
+      "email": "rahul@gmail.com",
+      "password": "1212"
+    }
+  ],
+  "UserRegisterData": [
+    
+  ]
+}
